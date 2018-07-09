@@ -2,7 +2,8 @@ This is a simple CRUD web app. It is very only used to test / practice infra dep
 
 this project uses `dep` install from https://github.com/golang/dep
 
-To build `go build` or to cross compile got all support os's `gox` or for linux if on the Mac, `gox -osarch="linux/amd64"`
+To build `go build` or to cross compile for all support os's `gox` or for linux if on the Mac, `gox -osarch="linux/amd64"` https://github.com/mitchellh/gox
+
 
 Config is taken from env vars, all logging is to stdout.
 
